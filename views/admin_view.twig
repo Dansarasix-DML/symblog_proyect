@@ -1,0 +1,29 @@
+{% extends "layout.twig" %}
+
+{% block nav %}
+    <nav>
+        <ul class="navigation">
+            <li><a href="http://symblog.es/">Home</a></li>
+            <li><a href="http://symblog.es/about">About</a></li>
+            <li><a href="http://symblog.es/contact">Contact</a></li>
+            <li><a href="http://symblog.es/logout">Logout</a></li>
+        </ul>
+    </nav>
+{% endblock %}
+
+{% block body %}
+    <h1>Panel de control de Administrador</h1>
+    <h3>Has iniciado sesión como: {{ user }} (<span>{{ email }}</span>)</h3>
+    <ul>
+        <li><a href="http://symblog.es/addBlog">Crear un nuevo blog</a></li>
+        <li><a href="http://symblog.es/addUser">Añadir un nuevo usuario</a></li>
+    </ul>
+
+    <br/><br/>
+
+    <a href="http://symblog.es/logout">Cerrar sesión</a>
+{% endblock %}
+
+{% block sidebar %}
+    {% include "sidebar.twig" %}
+{% endblock %}
