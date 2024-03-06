@@ -14,3 +14,14 @@ Añade el siguiente Virtual Host:
 ```
 
 Y añade la siguiente línea en tus hosts: ``127.0.0.1 symblog.es``
+
+**Como iniciar sesión**
+
+Para iniciar sesión solamente hay que introducir su nombre y contraseña.
+Aquí se proporciona una tabla con las credenciales:
+
+|Usuario|Contraseña|
+|--|--|
+|Daniel|usuario|
+|Laura|usuario|
+|Dogday|1234|
