@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 05-03-2024 a las 14:33:36
+-- Tiempo de generación: 06-03-2024 a las 09:19:18
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -105,6 +105,15 @@ CREATE TABLE `usuario` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Volcado de datos para la tabla `usuario`
+--
+
+INSERT INTO `usuario` (`id`, `user`, `password`, `email`, `profile`, `created`, `updated`) VALUES
+(11, 'Daniel', '$2y$10$miUajRDfSrCRMaPZ4X0X/.DQZeOtymekr9ySrs2o1qCeWM8jKdZpm', 'maloda@gmail.com', 'usuario', '2024-03-05 15:37:20', '2024-03-05 15:37:20'),
+(12, 'Laura', '$2y$10$ehfHZeAssey/ztePZQo.zeH14aAb1yYZafGkPMQGLK79nhzUubt6q', 'lubrla@gmail.com', 'usuario', '2024-03-05 15:38:45', '2024-03-05 15:38:45'),
+(13, 'Dogday', '$2y$10$mCC2kde4BlUAyKsVMKOVueP9eJ4kSfgIAajs6RXtcyfyQuDqAR9HK', 'dogdayofficial@gmail.com', 'usuario', '2024-03-05 15:39:10', '2024-03-05 15:39:10');
+
+--
 -- Índices para tablas volcadas
 --
 
@@ -147,7 +156,7 @@ ALTER TABLE `comment`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- Restricciones para tablas volcadas
